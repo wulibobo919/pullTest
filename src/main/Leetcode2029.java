@@ -16,7 +16,7 @@ public class Leetcode2029 {
         int length = stones.length;
         while (length-- > 0){
             for (int i=0;i<stones.length;i++){
-                if ((stones[i]+sum)%3 != 0)
+                if ((stones[i]+sum)%3 != 0);
             }
 
         }
