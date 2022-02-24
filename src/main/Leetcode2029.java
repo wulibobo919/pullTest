@@ -19,6 +19,7 @@ public class Leetcode2029 {
                 if ((stones[i]+sum)%3 != 0);
             }
 
+            System.out.println();
         }
         return false;
     }
