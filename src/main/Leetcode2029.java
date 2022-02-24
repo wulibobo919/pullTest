@@ -20,6 +20,7 @@ public class Leetcode2029 {
             }
 
             System.out.println();
+            System.out.println();
         }
         return false;
     }
