@@ -18,8 +18,6 @@ public class Leetcode2029 {
             for (int i=0;i<stones.length;i++){
                 if ((stones[i]+sum)%3 != 0);
             }
-
-            System.out.println();
             System.out.println();
         }
         return false;
