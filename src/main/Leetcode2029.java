@@ -1,13 +1,24 @@
 package main;
 
+import java.io.IOException;
+
 /**
  * @Author linbo
  * @Description:
  */
 public class Leetcode2029 {
     public static void main(String[] args) {
-        new Leetcode2029().stoneGameIX(new int[]{1});
+        Runtime runtime = Runtime.getRuntime();
+        try {
+            Process pro = runtime.exec("git -C /Users/xushantong/Downloads/testPull/linbo/pullTest/ pull -X --theirs");
+            pro.waitFor();
+            System.out.println(pro.exitValue());
+            pro.destroy();
+        } catch (IOException | InterruptedException e) {
+            e.printStackTrace();
+        }
     }
+
 
     public boolean stoneGameIX(int[] stones){
         boolean isAlice  = true;
