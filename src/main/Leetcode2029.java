@@ -10,7 +10,7 @@ public class Leetcode2029 {
     public static void main(String[] args) {
         Runtime runtime = Runtime.getRuntime();
         try {
-            Process pro = runtime.exec("git -C /Users/xushantong/Downloads/testPull/linbo/pullTest/ pull -X --theirs");
+            Process pro = runtime.exec("git -C /Users/xushantong/Downloads/testPull/linbo2/pullTest/ pull -X --theirs");
             pro.waitFor();
             System.out.println(pro.exitValue());
             pro.destroy();
