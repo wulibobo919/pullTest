@@ -9,7 +9,7 @@ import java.util.Map;
  */
 public class L1TwoSum {
     public static void main(String[] args) {
-
+        System.out.println("modify");
     }
 
     public static int[] twoSum(int[] src,int target){
