@@ -11,6 +11,7 @@ public class L1TwoSum {
     public static void main(String[] args) {
 
         System.out.println("new branch 1");
+        System.out.println("new branch 2");
 
     }
 
